@@ -19,9 +19,20 @@
       "testTsconfig": "tsconfig.spec.json",
       "prefix": "app",
       "styles": [
+        "../node_modules/bootstrap/dist/css/bootstrap.min.css",
         "styles.scss"
       ],
-      "scripts": [],
+      "scripts": [
+        "assets/js/modernizr.js",
+        "../node_modules/jquery/dist/jquery.min.js",
+        "../node_modules/bootstrap/dist/js/bootstrap.min.js",
+        "../node_modules/particles.js/particles.js",
+        "../node_modules/jquery.counterup/jquery.counterup.min.js",
+        "../node_modules/jquery-sticky/jquery.sticky.js",
+        "../node_modules/magnific-popup/dist/jquery.magnific-popup.js",
+
+        "assets/js/main.js"
+      ],
       "environmentSource": "environments/environment.ts",
       "environments": {
         "dev": "environments/environment.ts",

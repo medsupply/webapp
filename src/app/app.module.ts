@@ -5,6 +5,8 @@ import {FormsModule} from "@angular/forms";
 import {AppComponent} from "./app.component";
 import {CommonModule} from "@angular/common";
 import {BrowserAnimationsModule} from "@angular/platform-browser/animations";
+import {CoreModule} from "./core/core.module";
+import {IcoLandingModule} from "./ico-landing/ico-landing.module";
 
 @NgModule({
   declarations: [
@@ -14,7 +16,9 @@ import {BrowserAnimationsModule} from "@angular/platform-browser/animations";
     BrowserAnimationsModule,
     CommonModule,
     BrowserModule,
-    FormsModule
+    FormsModule,
+    CoreModule,
+    IcoLandingModule
   ],
   providers: [],
   bootstrap: [AppComponent]

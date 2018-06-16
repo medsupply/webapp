@@ -1,2 +1,8 @@
 /* You can add global styles to this file, and also import other style files */
-@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+
+@import "styles/_main";
+@import "styles/_style";
+@import "styles/_responsive";
+
+@import url("https://use.fontawesome.com/releases/v5.0.13/css/all.css");
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,800');
