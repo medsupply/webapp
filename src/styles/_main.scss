@@ -5709,3 +5709,7 @@ img.mfp-img {
 .letter-space-10 {
   letter-spacing: 10px !important;
 }
+
+/* circled element */
+
+.circled { @include border-radius(50%); }

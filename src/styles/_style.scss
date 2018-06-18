@@ -392,7 +392,7 @@ header {
   /* Chrome10-25,Safari5.1-6 */
   background: linear-gradient(to bottom, rgba(0, 0, 0, 0.65) 0%, rgba(0, 0, 0, 0) 100%);
   /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', endColorstr='#00000000', GradientType=0 );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#a6000000', endColorstr='#00000000', GradientType=0);
   /* IE6-9 */
 }
 
@@ -1360,7 +1360,8 @@ header {
       background: rgba(255, 255, 255, 0.1);
     }
   }
-  h6 {}
+  h6 {
+  }
   &.drk {
     p, h6, span, h3 {
       color: #fff;
@@ -1404,10 +1405,19 @@ header {
 ========================================================*/
 
 .team.style-2 .team-small li {
+  width: 18%;
+}
+
+.team.style-2 .team-small.advisors li {
+  width: 30%;
+}
+
+.team.style-2 .team-small li, .team.style-2 .team-small.advisors li {
   float: left;
-  width: 16.666666%;
   position: relative;
   overflow: hidden;
+  margin: 20px 5px;
+
   .hover {
     background: rgba(0, 0, 0, 0.8);
     font-size: 14px;
@@ -1933,10 +1943,12 @@ footer {
   -o-transition: all 0.4s ease-in-out;
   -ms-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
-  &:hover {}
+  &:hover {
+  }
 }
 
 a:hover {
   color: #0b0c22;
   text-decoration: underline;
 }
+

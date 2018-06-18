@@ -9,12 +9,13 @@ import { DevelopmentComponent } from './development/development.component';
 import { RoadMapComponent } from './road-map/road-map.component';
 import { TeamMembersComponent } from './team-members/team-members.component';
 import { JoinOurCommunityComponent } from './join-our-community/join-our-community.component';
+import { FaqsComponent } from './faqs/faqs.component';
 
 @NgModule({
   imports: [
     CommonModule
   ],
-  declarations: [IcoLandingComponent, IcoLandingHeaderComponent, WhyChooseUsComponent, TokenDistributionComponent, AboutComponent, DevelopmentComponent, RoadMapComponent, TeamMembersComponent, JoinOurCommunityComponent],
+  declarations: [IcoLandingComponent, IcoLandingHeaderComponent, WhyChooseUsComponent, TokenDistributionComponent, AboutComponent, DevelopmentComponent, RoadMapComponent, TeamMembersComponent, JoinOurCommunityComponent, FaqsComponent],
   exports: [IcoLandingComponent]
 })
 export class IcoLandingModule { }

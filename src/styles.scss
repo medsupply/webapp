@@ -1,9 +1,18 @@
 /* You can add global styles to this file, and also import other style files */
 
+@import "styles/_variables";
+@import "styles/_functions";
+@import "styles/_filters";
+@import "styles/_media-queries";
+@import "styles/_mixins";
+
 @import "styles/_main";
 @import "styles/_style";
 @import "styles/_responsive";
 @import "styles/flaticon/_flaticon";
+@import "styles/_timeline";
+//@import "styles/_social_btns";
+@import "styles/_team";
 
 @import url("https://use.fontawesome.com/releases/v5.0.13/css/all.css");
 @import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,800');
